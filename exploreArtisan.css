@@ -138,8 +138,10 @@
 
 .artisan-image{
     height: 180px;
+    min-height: 180px;
     width: 180px;
-    border-radius: 50%; 
+    min-width: 180px;
+    border-radius: 50%;
     object-fit: cover;
 }
 
