@@ -269,7 +269,7 @@
 /* div{background-color: red;} */
 
 /* RESPONSIVENESS */
-@media screen and (max-width: 900px){
+@media screen and (max-width: 750px){
 
 	#container{
 		width: 100%;
@@ -281,5 +281,13 @@
 		top: 0;
 		z-index: 1;
 	}
+
+.details-container{
+    display: flex;
+    flex-direction: column;
+/*     justify-content: space-between;
+    align-items: start; */
+		
+}
 
 }
