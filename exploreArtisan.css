@@ -295,5 +295,10 @@
     width: 100px;
     min-width: 100px;
 }
+.artisan-rating-container{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
 
 }
